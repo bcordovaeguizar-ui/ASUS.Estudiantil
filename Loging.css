@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, #1a0b2e, #090979);
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img{
+    height: 75px;
+    width: 130px;
+    padding: 10px;
+}    
+.header{
+    background-color: white;
+}
+ul {
+    background-color: white;
+    width: 90%;
+    list-style-type: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    transition: all 0.3s ease;
+    color: blue;
+}
+a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+li :hover{
+    background-color: rgb(255, 255, 255);
+}
+li{
+    display: inline-flex;
+}
+.login {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    color: white;
+    backdrop-filter: blur(10px);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    background: #2d7ee7; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+button:hover {
+    background: #1a5bb5;
+    transform: translateY(-2px);
+}

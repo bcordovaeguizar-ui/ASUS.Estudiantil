@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> Formulario </title>
+    </head>
+    <link rel="stylesheet" href="Loging.css">
+    <body>
+        <div class="container">
+        <div class="header">
+        <img src="Imagenes/Logo.png"> 
+        <ul class="menu">
+            <li><a href="ASUS.html">Inicio</a></li>
+        </ul>
+        </div>
+        </div>
+        <h2> Formulario de contacto </h2>
+        <form method="post">
+        <p><label for="nombre"> Nombre: </label></p>
+        <input type="text" id="nombre" name="nombre" required
+        placeholder="@ASUS">
+        <br>
+        <p><label for="correo">Correo Electronico: </label></p>
+        <input type="email" id="correo" name="correo" required placeholder="@ASUS">
+        <br>
+        <p><label for="mensaje">Mensaje: </label></p>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required placeholder ="@ASUS"></textarea>
+        <br>
+        <label for="motivo"> Motivo de Contacto </label>
+        <selet id=" motivo"name= "motivo">
+        <option value="consulta"> Consulta</option>
+        <option value="comentario"> Comentario</option>
+        <option value="sugerencia"> sugerencia</option>
+        </selet>
+        <br> 
+        <input type="submit" value="Enviar">
+        <button type="submit">Enviar btn</button></button>
+    </form>
+</body>
+</html>
